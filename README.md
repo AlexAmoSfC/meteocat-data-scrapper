@@ -1,2 +1,2 @@
 # meteocat-data-scrapper
-METEOCAT WEB's Meteorological Data Scrapper
+METEOCAT Web's Meteorological Data Scrapper
