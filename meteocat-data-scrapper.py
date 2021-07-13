@@ -16,7 +16,7 @@ sheet_name = r'HostaletsPierola'
 ## CONSTANTS - DON'T MODIFY BEYOND THIS LINE
 meteocat_url_template = "https://www.meteo.cat/observacions/xema/dades?codi={}&dia={}T00:00Z"
 # this is the data structure of meteocat web for the table of data for a single day
-# since we are going to combine data from several days, we will add the additional column "date" at the end
+# since we are going to combine data from several days, we also add the additional column "date" at the beggining
 column_headers = ["fecha", "periodo", "tm", "tx", "tn", "hrm", "ppt", "vvm", "dvm", "vvx", "pm", "rs"]
 final_data = pd.DataFrame(columns=column_headers)
 
